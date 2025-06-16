@@ -1,9 +1,9 @@
 .subhead {
-background-color: red;
-font-family: helvetica;
+background-color: blue;
+font-family: Helvetica, sans-serif;
 }
 
 h1 {
 font-size: 60px;
-font-family: helvetica;
+font-family: Helvetica, sans-serif;
 }
