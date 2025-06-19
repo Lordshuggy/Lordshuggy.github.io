@@ -14,8 +14,15 @@ font-family: monospace;
 }
 
 #navbar {
-width: 600px;
-height: 200px;
+position: relative;
+width: 200px;
+height: 400px;
 background-color: cadetblue;
 float: left;
+}
+
+li.test a{
+
+font-size: 40px;
+
 }
