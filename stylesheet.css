@@ -41,15 +41,16 @@ li a:hover {
 }
 
 #portfolioSquare{
+    display: flex;
     background-color: chartreuse;
     margin-left: 120px;
+    margin-right: 120px;
     width: auto;
     height: 1000px;
 }
 
 .projectSquare{
     background-color:cornflowerblue;
-    width: 100px;
-    height:100px;
-    float: left;
+    margin:10px;
+    padding:20px;
 }
