@@ -7,3 +7,14 @@ h1 {
 font-size: 60px;
 font-family: Helvetica, sans-serif;
 }
+
+.navLink {
+background-color: aquamarine;
+font-family: monospace;
+}
+
+#navbar {
+width: 600px;
+height: 200px;
+background-color: cadetblue;
+}
