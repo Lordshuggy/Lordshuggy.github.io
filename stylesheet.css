@@ -8,7 +8,7 @@ font-size: 60px;
 font-family: Helvetica, sans-serif;
 }
 
-.navlink {
+li a {
 background-color: aquamarine;
 font-family: monospace;
 }
