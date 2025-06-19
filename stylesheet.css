@@ -1,5 +1,5 @@
 .subhead {
-background-color: blue;
+background-color: rgb(255, 0, 0);
 font-family: Helvetica, sans-serif;
 }
 
@@ -17,4 +17,5 @@ font-family: monospace;
 width: 600px;
 height: 200px;
 background-color: cadetblue;
+float: left;
 }
