@@ -1,28 +1,42 @@
-.subhead {
-background-color: rgb(255, 0, 0);
-font-family: Helvetica, sans-serif;
+#pageContainer{
+background-color: #d6d6d6;
 }
 
 h1 {
-font-size: 60px;
-font-family: Helvetica, sans-serif;
+    font-size: 60px;
+    font-family: Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: Helvetica, sans-serif;
+}
+
+ul{
+    list-style:none;
+    margin: 0px;
+    padding: 0px;
+
 }
 
 li a {
-background-color: aquamarine;
-font-family: monospace;
+    display: block;
+    background-color: aquamarine;
+    border: solid;
+    font-family: monospace;
+    font-size: 15px;
 }
 
-#navbar {
-position: relative;
-width: 200px;
-height: 400px;
-background-color: cadetblue;
-float: left;
+li a:hover {
+  background-color: #555;
+  color: white;
 }
 
-li.test a{
-
-font-size: 40px;
-
+#navBar {
+    position: relative;
+    width: 100px;
+    height: 400px;
+    background-color: cadetblue;
+    float: left;
 }
+
