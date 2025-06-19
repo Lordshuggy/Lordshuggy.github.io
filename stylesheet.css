@@ -40,3 +40,16 @@ li a:hover {
     float: left;
 }
 
+#portfolioSquare{
+    background-color: chartreuse;
+    margin-left: 120px;
+    width: auto;
+    height: 1000px;
+}
+
+.projectSquare{
+    background-color:cornflowerblue;
+    width: 100px;
+    height:100px;
+    float: left;
+}
