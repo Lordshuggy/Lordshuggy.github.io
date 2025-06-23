@@ -1,5 +1,5 @@
 #pageContainer{
-background-color: #d6d6d6;
+background-color: #e28888;
 }
 
 h1 {
@@ -42,12 +42,14 @@ li a:hover {
 
 #portfolioSquare{
     display: flex;
+    flex-wrap: wrap;
     background-color: chartreuse;
     margin-left: 120px;
     margin-right: 120px;
     width: auto;
-    height: 1000px;
-}
+    flex-wrap: wrap;
+    justify-content: center;
+   }
 
 .projectSquare{
     background-color:cornflowerblue;
