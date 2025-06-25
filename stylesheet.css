@@ -28,6 +28,7 @@ li a {
     font-family: monospace;
     font-size: 10px;
     padding-right: 10px;
+    margin-bottom: 10px;
 }
 
 li a:hover {
@@ -41,6 +42,11 @@ li a:hover {
     height: 400px;
     background-color: cadetblue;
     float: left;
+}
+
+.subHead{
+    height: 300px;
+    background-color: blanchedalmond;
 }
 
 #portfolioSquare{
@@ -59,6 +65,8 @@ li a:hover {
     background-color:cornflowerblue;
     margin:10px;
     padding:20px;
+    height: 150px;
+    width: 150px;
 }
 
 .footer{
