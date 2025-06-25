@@ -65,8 +65,9 @@ li a:hover {
     display: flex;
     flex-wrap: wrap;
     background-color: chartreuse;
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 400px;
     width: auto;
     height: auto;
     flex-wrap: wrap;
