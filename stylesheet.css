@@ -6,7 +6,8 @@ background-color: #e28888;
     position:fixed;
     top: 0;
     z-index: 10;
-    width: 100px;
+    padding: 25px;
+    width: 200px;
     height: auto;
     background-color: darkolivegreen;
 }
@@ -22,6 +23,15 @@ h2 {
     font-size: 15px;
     font-family: Helvetica, sans-serif;
 }
+
+#navBar {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: cadetblue;
+    float: left;
+}
+
 
 ul{
     list-style:none;
@@ -45,13 +55,6 @@ li a:hover {
   color: white;
 }
 
-#navBar {
-    position: relative;
-    width: 100px;
-    height: 400px;
-    background-color: cadetblue;
-    float: left;
-}
 
 .subHead{
     height: 100px;
