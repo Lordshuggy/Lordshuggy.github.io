@@ -2,9 +2,15 @@
 background-color: #e28888;
 }
 
-#header{
+body {
+    margin: 0;
+    padding: 0;    
+}
+
+#header {
     position:fixed;
     top: 0;
+    left: 0;
     z-index: 10;
     padding: 25px;
     width: 200px;
@@ -33,7 +39,7 @@ h2 {
 }
 
 
-ul{
+ul {
     list-style:none;
     margin: 0px;
     padding: 0px;
@@ -56,12 +62,12 @@ li a:hover {
 }
 
 
-.subHead{
+.subHead {
     height: 100px;
     background-color: blanchedalmond;
 }
 
-#portfolioSquare{
+#portfolioSquare {
     display: flex;
     flex-wrap: wrap;
     background-color: chartreuse;
@@ -74,7 +80,7 @@ li a:hover {
     justify-content: center;
    }
 
-.projectSquare{
+.projectSquare {
     background-color:cornflowerblue;
     margin:10px;
     padding:20px;
@@ -83,7 +89,7 @@ li a:hover {
     
 }
 
-.footer{
+footer {
 background:purple;
 margin-bottom: 10px;
 
