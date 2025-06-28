@@ -96,9 +96,15 @@ background-color: #e28888;
     
 }
 
-@media screen and (max-width: 600px){
-    #portfolioSquare {flex-direction: column;}
-    #projectSquare {flex: 90%;}
+@media screen and (max-width: 600px) {
+
+    #portfolioSquare {
+        flex-direction: column;
+    }
+
+    .projectSquare {
+        flex: 90%;
+    }
 }
 
 footer {
