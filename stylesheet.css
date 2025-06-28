@@ -99,6 +99,7 @@ background-color: #e28888;
 @media screen and (max-width: 600px) {
 
     #portfolioSquare {
+        margin: 0px 0px 0px 0px;
         flex-direction: column;
     }
 
