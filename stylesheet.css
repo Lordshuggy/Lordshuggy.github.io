@@ -73,11 +73,11 @@ background-color: #e28888;
 }
 
 #portfolioSquare {
-    left:200px;
+
     display: flex;
     flex-wrap: wrap;
     background-color: chartreuse;
-    margin-left: 0px;
+    margin-left: 200px;
     margin-right: 0px;
     padding-left: 300px;
     width: auto;
