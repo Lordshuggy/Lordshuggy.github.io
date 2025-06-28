@@ -105,7 +105,7 @@ background-color: #e28888;
         flex-direction: column;
     }
 
-    .projectSquare {
+.projectSquare {
     background-color:#279780;
     margin: 10px;
     padding: 20px;
@@ -113,7 +113,7 @@ background-color: #e28888;
     flex: 90%; 
 }
    
-    #header {
+#header {
     position:fixed;
     top: 0;
     left: 0;
@@ -124,12 +124,26 @@ background-color: #e28888;
     background-color: #20006c;
 }
 
-    #navBar {
+#navBar {
         height: 100%;
     
     }
     
-    .subHead {
+li a {
+    display: flex;
+    background-color: #ffa3a3;
+    border: solid;
+    height:  30px;
+    font-size: 15px;
+    margin: 0px;
+    flex-direction: row;
+    font-style: italic;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+}
+
+.subHead {
         display: none;
     }
 
