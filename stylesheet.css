@@ -69,9 +69,11 @@ li a:hover {
 
 #pageContainer{
 background-color: #e28888;
+
 }
 
 #portfolioSquare {
+    left:200px
     display: flex;
     flex-wrap: wrap;
     background-color: chartreuse;
