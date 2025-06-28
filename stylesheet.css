@@ -12,22 +12,24 @@ body {
     top: 0;
     left: 0;
     z-index: 10;
-    padding: 25px;
-    width: 200px;
+    padding: 100px 30px 30px 30px;
+    width: 300px;
     height: auto;
     background-color: darkolivegreen;
 }
 
 h1 {
     font-size: 20px;
-    font-family: Helvetica, sans-serif;
+    font-family: "Helvetica Neue", Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 700;
     background-color: crimson;
     margin-top: 0px;
 }
 
 h2 {
     font-size: 15px;
-    font-family: Helvetica, sans-serif;
+    font-family: "Helvetica Neue", Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 300;
 }
 
 #navBar {
@@ -77,11 +79,11 @@ background-color: #e28888;
     display: flex;
     flex-wrap: wrap;
     background-color: chartreuse;
-    margin-left: 200px;
+    margin-left: 300px;
     margin-right: 0px;
+    padding-top: 90px;
     width: auto;
     height: auto;
-    flex-wrap: wrap;
     justify-content: center;
    }
 
@@ -90,8 +92,13 @@ background-color: #e28888;
     margin: 10px;
     padding: 20px;
     height: 400px;
-    width: 25%;
+    flex: 25%;
     
+}
+
+@media screen and (max-width: 600px){
+    #portfolioSquare {flex-direction: column;}
+    #projectSquare {flex: 90%;}
 }
 
 footer {
