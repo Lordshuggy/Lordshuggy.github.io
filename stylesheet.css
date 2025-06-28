@@ -97,7 +97,7 @@ background-color: #e28888;
     
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
 
  #portfolioSquare {
         margin: 200px 0px 0px 0px;
@@ -132,7 +132,7 @@ background-color: #e28888;
     .subHead {
         display: none;
     }
-    
+
 }
 
 footer {
