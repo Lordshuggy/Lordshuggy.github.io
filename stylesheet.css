@@ -33,7 +33,8 @@ font-style: normal;
 
 h2 {
     font-size: 15px;
-    font-family: "Helvetica Neue", Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-family: "neulis-sans", sans-serif;
+font-style: normal;
     font-weight: 300;
 }
 
