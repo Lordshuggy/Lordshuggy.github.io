@@ -1,3 +1,9 @@
+:root {
+  --pink: #ee9591;
+  --navy: #3e4a7c;
+  --background: #e0e1dc;
+}
+
 body {
     margin: 0;
     padding: 0;    
@@ -19,22 +25,24 @@ img {
     padding: 100px 30px 30px 30px;
     width: 300px;
     height: auto;
-    background-color: darkolivegreen;
+    background-color: var(--background);
 }
 
 h1 {
+    color: var(--navy);
     font-size: 20px;
     font-family: "neulis-sans", sans-serif;
-font-weight: 700;
-font-style: normal;
+    font-weight: 700;
+    font-style: normal;
     background-color: crimson;
     margin-top: 0px;
 }
 
 h2 {
+    color: var(--pink);
     font-size: 15px;
-        font-family: "neulis-sans", sans-serif;
-font-style: normal;
+    font-family: "neulis-sans", sans-serif;
+    font-style: normal;
     font-weight: 300;
 }
 
@@ -85,7 +93,7 @@ background-color: #e28888;
 
     display: flex;
     flex-wrap: wrap;
-    background-color: chartreuse;
+    background-color: var(--background);
     margin-left: 300px;
     margin-right: 0px;
     padding-top: 90px;
