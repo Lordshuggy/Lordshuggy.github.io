@@ -16,6 +16,7 @@ body {
 
 img {
     max-width: 100%;
+    margin: 0px;
 }
 
 #header {
@@ -30,7 +31,7 @@ img {
 }
 
 h1 {
-    color: var(--navy);
+    color: var(--pink);
     font-size: 20px;
     font-family: "neulis-sans", sans-serif;
     font-weight: 700;
@@ -40,7 +41,7 @@ h1 {
 }
 
 h2 {
-    color: var(--pink);
+    color: var(--navy);
     font-size: 15px;
     font-family: "neulis-sans", sans-serif;
     font-style: normal;
@@ -170,7 +171,8 @@ li a {
 }
 
 footer {
+position: absolute;
+bottom: 0px;
 background:purple;
-margin-bottom: 10px;
 
 }
