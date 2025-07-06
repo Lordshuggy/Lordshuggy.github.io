@@ -49,24 +49,22 @@ h2 {
 }
 
 #navBar {
-    position: relative;
     width: 100%;
     height: 400px;
     /* background-color: cadetblue; */
-    float: left;
 }
 
 
 ul {
-    list-style:none;
+    list-style: none;
     margin: 0px;
     padding: 0px;
+    display: flex;
+    flex-direction: column;
 
 }
 
 li a {
-     display: flex;
-    flex-direction: column;
     /* background-color: aquamarine;
     border: solid; */
     font-family: "neulis-sans", sans-serif;
@@ -172,22 +170,29 @@ img {
     
     }
     
-li a {
+ul {
+
     display: flex;
-   /* background-color: #ffa3a3;
-    border: solid; */
-    height:  30px;
-    font-size: 15px;
-    margin: 0px;
-    flex-direction: row;
-    font-style: italic;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
 }
+
+
+li a {
+    
+    margin: 0px;
+    height: 30px;
+    background-color: #ffa3a3;
+    border: solid; 
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    
 
 .subHead {
         display: none;
     }
+
+}
 
 }
 
