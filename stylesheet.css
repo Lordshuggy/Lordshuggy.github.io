@@ -120,19 +120,19 @@ background-color: #e28888;
 
 @media screen and (max-width: 1000px) {
 
-img {
+    img {
         max-width: 100%;
         height: auto;
         display: block;
     }
 
- h1{
+     h1{
         font-size: 20px;
         padding: 0px;
     }
 
 
- #portfolioSquare {
+     #portfolioSquare {
        
         background-color: red;
         max-height: 100%;
@@ -145,16 +145,16 @@ img {
         align-items: center;
     }
 
-.projectSquare {
-     /* background-color:#279780; */
-     width: 100%;         
-    max-width: 800px; 
-    margin: 0px;
-    padding: 0px;
-    flex: 0 0 90%; 
-}
+    .projectSquare {
+        background-color:#279780;
+        width: 100%;         
+        max-width: 500px; 
+        margin: 0px;
+        padding: 0px;
+        flex: 0 0 90%; 
+    }
    
-#header {
+    #header {
     position:fixed;
     top: 0;
     left: 0;
@@ -163,38 +163,38 @@ img {
     width: 100%;
     height: 200px;
    /* background-color: #20006c; */
-}
+    }
 
-#navBar {
+    #navBar {
         height: 100%;
-    
+        max-width: 500px;
+        margin: 0px auto 0px auto;
+        background-color: blue;
     }
     
-ul {
+    ul {
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
 
-li a {
+    li a {
     
-    margin: 0px;
-    height: 30px;
-    background-color: #ffa3a3;
-    border: solid; 
-    font-size: 15px;
-    font-style: italic;
-    text-align: center;
-}
+        margin: 0px;
+        height: 30px;
+        background-color: #ffa3a3;
+        border: solid; 
+        font-size: 15px;
+        font-style: italic;
+        text-align: center;
+    }
     
 
-.subHead {
+    .subHead {
         display: none;
     }
-
-}
 
 }
 
