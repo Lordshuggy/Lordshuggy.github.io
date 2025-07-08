@@ -81,11 +81,16 @@ a:link {
 }
 
 li a:hover {
-  background-color: #555;
-  color: white;
+    background-color: #555;
+    color: white;
 }
 
 .projectDescription {
+    color: var(--navy);
+    font-size: 15px;
+    font-family: "neulis-sans", sans-serif;
+    font-style: normal;
+    font-weight: 300;
         
     }
 
@@ -122,6 +127,15 @@ li a:hover {
     flex: 1 1 25%;
     
 }
+
+.projectImage {
+        /* background-color:#279780; */
+        width: 100%;         
+        max-width: 500px; 
+        margin: 0px;
+        padding: 0px;
+        flex: 0 0 90%; 
+    }
 
 
 /* MAX WIDTH 1000px */
