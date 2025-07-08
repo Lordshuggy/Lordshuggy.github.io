@@ -82,12 +82,13 @@ li a:hover {
 
 
 .subHead {
+    /* background-color: blanchedalmond; */
     height: 100px;
-   /* background-color: blanchedalmond; */
+   
 }
 
 #pageContainer{
-background-color: #e28888;
+    /* background-color: #e28888; */
 
 }
 
@@ -106,7 +107,7 @@ background-color: #e28888;
    }
 
 .projectSquare {
-    background-color:cornflowerblue;
+    /* background-color:cornflowerblue; */
     margin: 10px;
     padding: 0px;
     height: auto;
@@ -167,10 +168,11 @@ background-color: #e28888;
     }
 
     #navBar {
+        /* background-color: blue; */
         height: 100%;
         max-width: 500px;
         margin: 0px auto 0px auto;
-        background-color: blue;
+        
     }
     
     ul {
@@ -190,6 +192,7 @@ background-color: #e28888;
         font-size: 15px;
         font-style: italic;
         text-align: center;
+        color: var(--navy);
     }
     
 
