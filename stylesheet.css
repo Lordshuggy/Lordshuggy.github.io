@@ -70,9 +70,14 @@ li a {
     font-family: "neulis-sans", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 10px;
+    font-size: 15px;
     padding-right: 10px;
     margin-bottom: 10px;
+    color: var(--navy);
+}
+
+a:link {
+    text-decoration: none;
 }
 
 li a:hover {
@@ -192,12 +197,8 @@ li a:hover {
         font-size: 15px;
         font-style: italic;
         text-align: center;
-        color: var(--navy);
     }
     
-     a:link {
-          text-decoration: none;
-    }
 
     .subHead {
         display: none;
