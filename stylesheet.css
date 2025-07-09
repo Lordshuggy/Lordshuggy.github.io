@@ -145,7 +145,7 @@ li a:hover {
         width: 100%;         
         max-width: 500px; 
         margin: 0px;
-        padding: 0px;
+        padding: 0px 10px;
         flex: 0 0 90%; 
 }
 
@@ -203,6 +203,11 @@ li a:hover {
         padding: 0px;
         flex: 0 0 90%; 
     }
+
+    .projectImage {
+        padding: 0px;
+    
+}
    
     #header {
         /* background-color: #20006c; */
