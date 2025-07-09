@@ -136,10 +136,15 @@ li a:hover {
         margin: 0px;
         padding: 0px;
         flex: 0 0 90%; 
-    }
+}
+
+.projectImage img {
+        background-color: purple; 
+        padding: 10px 0px 0px 0px
+}
 
 
-/* MAX WIDTH 1000px */
+/* ------------------------ MAX WIDTH 1000px  ------------------------ */
 
 @media screen and (max-width: 1000px) {
 
