@@ -244,6 +244,7 @@ li a:hover {
     .projectDescription {
         max-width: 500px;
         margin: 20px auto 0px auto;
+        overflow: hidden;
         
     }
 
@@ -251,6 +252,8 @@ li a:hover {
         /* display: none; */
         max-width: 500px;
         margin: 30px auto 30px auto;
+        overflow: hidden;
+        height: 4em;
     }
 
 }
