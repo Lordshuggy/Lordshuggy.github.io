@@ -151,7 +151,7 @@ li a:hover {
 }
 
 /*
-Potential idea for flex box project description, which would fit better than the 
+Potential idea for flex box project description, which may fit better than the 
 current mobile project description box. 
 
 .text {
@@ -226,7 +226,7 @@ current mobile project description box.
         z-index: 10;
         padding: 30px 30px 30px 30px;
         width: 100%;
-        height: 210px;
+        height: 230px;
    
     }
 
@@ -274,6 +274,20 @@ current mobile project description box.
 
 }
 
+/* ------------------------ MAX WIDTH 600px  ------------------------ */
+@media screen and (max-width: 600px) {
+    #header {
+    height: 240px
+    }
+
+    #projectContainer {
+       
+        background-color: red;
+        margin: 240px 30px 0px 30px;
+        
+    }
+}
+/* ------------------------ End of MQ  ------------------------ */
 footer {
     /* background-color: purple; */
     position: relative;
