@@ -127,16 +127,6 @@ li a:hover {
     justify-content: center;
    }
 
-.projectSquare {
-    /* background-color:cornflowerblue; */
-    margin: 10px;
-    padding: 0px;
-    height: auto;
-    max-height: 800px;
-    flex: 0 0 30%;
-    
-}
-
 .projectImage {
         /* background-color:#279780; */
         width: 100%;         
@@ -146,11 +136,27 @@ li a:hover {
         flex: 0 0 90%; 
 }
 
-/*
+
  .projectImage img {
         margin-bottom: 20px
 }
-*/
+
+.homepageSquare {
+    /* background-color:cornflowerblue; */
+    margin: 10px;
+    padding: 0px;
+    height: auto;
+    max-height: 800px;
+    flex: 0 0 30%;
+    
+}
+
+ .homepageSquare img {
+        margin-bottom: 20px;
+    }
+
+
+
 
 /*
 Potential idea for flex box project description, which may fit better than the 
@@ -207,7 +213,12 @@ current mobile project description box.
         align-items: center;
     }
 
-    .projectSquare {
+    .projectImage {
+        padding: 0px;
+    
+    }
+
+    .homepageSquare {
         /* background-color:#279780; */
         width: 100%;         
         max-width: 500px; 
@@ -216,14 +227,7 @@ current mobile project description box.
         flex: 0 0 90%; 
     }
 
-    .projectSquare img {
-        margin-bottom: 20px;
-    }
-
-    .projectImage {
-        padding: 0px;
     
-    }
    
     #header {
         /* background-color: #20006c; */
