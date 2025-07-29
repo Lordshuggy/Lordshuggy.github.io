@@ -128,7 +128,6 @@ li a:hover {
    }
 
 .projectImage {
-        /* background-color:#279780; */
         width: 100%;         
         max-width: 500px; 
         margin: 0px;
@@ -189,8 +188,6 @@ current mobile project description box.
 
 
      #portfolioSquare {
-       
-        /* background-color: red; */
         max-height: 100%;
         margin: 120px 30px 0px 30px;
         padding-top: 50px;
@@ -202,8 +199,6 @@ current mobile project description box.
     }
 
      #projectContainer {
-       
-        /* background-color: red; */
         max-height: 100%;
         margin: 200px 30px 0px 30px;
         padding-top: 20px;
@@ -221,8 +216,7 @@ current mobile project description box.
 
     /* USE THIS TO CHANGE SIZE OF HOMEPAGE PROJECT IMAGES IN MOBILE */
     
-    .homepageSquare {
-        /* background-color:#279780; */      
+    .homepageSquare {     
         max-width: 500px; 
         margin: 0px;
         padding: 0px;
@@ -271,12 +265,12 @@ current mobile project description box.
     }
     
     .projectDescription {
-       /* background-color: red; */ 
+        background-color: var(--background);
         max-width: 500px;
-        margin: 20px auto 0px auto;
+        margin: 20px auto 10px auto;
+        padding-bottom: 10px;
         font-size: 15px;
-        height: 160px;
-        overflow: hidden;
+        height: auto;
          
     }
 
@@ -294,7 +288,6 @@ current mobile project description box.
 @media screen and (max-width: 600px) {
     
     #header {
-        /background-color: lightskyblue;
         height: 160px;
     }
 
@@ -305,7 +298,7 @@ current mobile project description box.
     #projectContainer {
        
         padding-top: 0px;
-        margin: 280px 30px 0px 30px;
+        margin: 220px 30px 0px 30px;
         
     }
 
@@ -318,7 +311,6 @@ current mobile project description box.
 @media screen and (max-width: 400px) {
     
     #header {
-        /background-color: lightskyblue;
         height: 150px;
     }
 
