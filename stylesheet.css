@@ -129,7 +129,7 @@ li a:hover {
 
 .projectOneColImage {
         width: 100%;         
-        max-width: 10px; 
+        max-width: 100px; 
         margin: 0px;
         padding: 0px 10px;
         flex: 0 0 90%; 
