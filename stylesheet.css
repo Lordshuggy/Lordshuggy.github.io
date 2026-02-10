@@ -120,21 +120,28 @@ li a:hover {
 #projectContainer {
     display: flex;
     flex-wrap: wrap;
-    background-color: var(--background);
+    background-color: var(red);
     margin-left: 300px;
     margin-right: 30px;
     padding-top: 120px;
     justify-content: center;
    }
 
-.projectImage {
+.projectOneColImage {
+        width: 100%;         
+        max-width: 1000px; 
+        margin: 0px;
+        padding: 0px 10px;
+        flex: 0 0 90%; 
+}
+
+.projectTwoColImage {
         width: 100%;         
         max-width: 500px; 
         margin: 0px;
         padding: 0px 10px;
         flex: 0 0 90%; 
 }
-
 
 .projectImage img {
         margin-bottom: 20px
