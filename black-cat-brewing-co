@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="stylesheet.css">
+<link rel="stylesheet" href="https://use.typekit.net/bzg8pla.css">
+
+<title>Hello World</title>
+</head>
+
+<body>
+<div id="header">
+<h1>LL</h1>
+<nav>
+    <ul id="navBar">
+    <li><a href="/index.html">HOME</a></li>
+    <li><a href="/about.html">ABOUT</a></li>
+    <li><a href="" target="_blank" >SHOP</a></li>
+    <li><a href="" target="_blank" >BLOG</a></li>
+    </ul>
+</nav>
+
+<h2 class="projectDescription">
+   One, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten, 
+   Eleven, Twelve, Thirteen, Fourteen, Fifteen, Sixteen, Seventeen, Eighteen, Nineteen, Twenty, 
+   Twenty-one, Twenty-two, Twenty-three, Twenty-four, Twenty-five, Twenty-six, Twenty-seven, Twenty-eight, Twenty-nine, 
+   Thirty, Thirty-one, Thirty-two, Thirty-three, Thirty-four
+</h2>
+
+
+</div>
+
+<div class="pageContainer">    
+
+</div>
+
+<div id="projectContainer">
+    <div class="projectOneColImage">
+        <img src="images/blackcatbrewery/black_cat_brewery 01.jpg" alt="BCBC">
+        
+    </div>
+    <div class="projectTwoColImage">
+        <img src="images/blackcatbrewery/black_cat_brewery 02.jpg" alt="BCBC">
+        <img src="images/blackcatbrewery/black_cat_brewery 03.jpg" alt="BCBC">
+    </div>
+</div>
+
+<footer>
+<p>LL 2025©</p>
+</footer>
+
+</body>
+</html>
