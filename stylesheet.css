@@ -168,7 +168,7 @@ li a:hover {
     
 }
 
- .projectWrapper:hover a {
+ .projectWrapper:hover a img {
   transform: scale(2);
   /*object-position: bottom;*/
 }
