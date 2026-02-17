@@ -124,7 +124,6 @@ li a:hover {
    }
 
 
-
 /* FLEX BOX CODING PROJECT PAGE */
 
 #projectContainer {
@@ -168,6 +167,12 @@ li a:hover {
     flex: 0 0 30%;
     
 }
+
+ .homepageSquare:hover img {
+  transform: scale(2);
+  /*object-position: bottom;*/
+}
+
 
  .homepageSquare img {
         margin-bottom: 1vw;
