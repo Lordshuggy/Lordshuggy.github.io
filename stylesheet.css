@@ -49,6 +49,10 @@ h2 {
     font-weight: 300;
 }
 
+h3 {
+
+}
+
 #navBar {
     width: 100%;
     height: 200px;
@@ -106,6 +110,8 @@ li a:hover {
 
 }
 
+/* FLEX BOX CODING HOMEPAGE */
+
 #portfolioSquare {
     display: flex;
     flex-wrap: wrap;
@@ -117,6 +123,8 @@ li a:hover {
     justify-content: center;
    }
 
+/* FLEX BOX CODING PROJECT PAGE */
+
 #projectContainer {
     display: flex;
     flex-wrap: wrap;
@@ -127,14 +135,7 @@ li a:hover {
     justify-content: center;
    }
 
-.projectTwoColImage {
-        width: 100%;         
-        max-width: 500px; 
-        margin: 0px;
-        padding: 0px 10px;
-        flex: 0 0 90%; 
-}
-
+/* ONE COLUMN CSS */
 .projectOneColImage {
         width: 100%;         
         max-width: 1100px; 
@@ -142,6 +143,14 @@ li a:hover {
         padding: 0px 10px;
         flex: 0 0 90%; 
 
+}
+/* TWO COLUMN CSS */
+.projectTwoColImage {
+        width: 100%;         
+        max-width: 500px; 
+        margin: 0px;
+        padding: 0px 10px;
+        flex: 0 0 90%; 
 }
 
 .projectImage img {
