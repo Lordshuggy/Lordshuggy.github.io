@@ -168,7 +168,7 @@ li a:hover {
     
 }
 
- .homepageSquare:hover img {
+ .homepageSquare:hover a img {
   transform: scale(2);
   /*object-position: bottom;*/
 }
