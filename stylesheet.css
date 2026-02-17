@@ -178,7 +178,7 @@ li a:hover {
 
  .projectWrapper:hover a img {
   transform: scale(2);
-  transition: all 200ms ease-in-out;
+  transition: all 500ms ease-in-out;
   /*object-position: bottom;*/
 }
 
