@@ -171,6 +171,7 @@ li a:hover {
 /* PROJECT IMAGE ANIMATION */
 .projectWrapper {
     position: relative;
+    Background: blue;
 }
 
 .projectWrapperImage {
@@ -184,6 +185,7 @@ li a:hover {
     position: absolute;
     height: 300px;
     width: 30%;
+    top: 0px;
     left: 20px;
     transition: all 200ms ease-in-out;
     overflow: hidden;
