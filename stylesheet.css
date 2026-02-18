@@ -178,14 +178,16 @@ li a:hover {
 }
 
 .projectWrapperText {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  height: 300px;
-  width: 300px;
-  left: 380px;
-  transition: all 200ms ease-in-out;
-  overflow: hidden;
+  
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 300px;
+    width: 30%;
+    left: 20px;
+    transition: all 200ms ease-in-out;
+    overflow: hidden;
+    background : orange;
 }
 
  .projectWrapper:hover a img {
