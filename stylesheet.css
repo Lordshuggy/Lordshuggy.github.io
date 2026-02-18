@@ -177,9 +177,20 @@ li a:hover {
     overflow: hidden;
 }
 
+.projectWrapperText {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  left: 380px;
+  transition: all 200ms ease-in-out;
+  overflow: hidden;
+}
+
  .projectWrapper:hover a img {
   transform: scale(2);
-  transition: all 2s ease-in-out;
+  transition: all 1s ease-in-out;
   /*object-position: bottom;*/
 }
 
