@@ -170,8 +170,9 @@ li a:hover {
 
 /* PROJECT IMAGE ANIMATION */
 .projectWrapper {
+    height: 100%;
     position: relative;
-    Background: blue;
+    background: blue;
 }
 
 .projectWrapperImage {
@@ -183,7 +184,7 @@ li a:hover {
     display: flex;
     flex-direction: column;
     position: absolute;
-    height: 300px;
+    height: 100%;
     width: 30%;
     top: 0px;
     left: 20px;
@@ -272,8 +273,8 @@ current mobile project description box.
 
      .homepageSquare img {
         margin-bottom: 3vw;
-}
-
+    }
+    /* END */
     
    
     #header {
