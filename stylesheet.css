@@ -168,6 +168,7 @@ li a:hover {
     
 }
 
+/* PROJECT IMAGE ANIMATION */
 .projectWrapper {
     position: relative;
 }
@@ -178,16 +179,14 @@ li a:hover {
 
  .projectWrapper:hover a img {
   transform: scale(2);
-  transition: all 500ms ease-in-out;
+  transition: all 2s ease-in-out;
   /*object-position: bottom;*/
 }
-
 
  .homepageSquare img {
         margin-bottom: 1vw;
 }
-
-
+/* PROJECT IMAGE ANIMATION */
 
 
 /*
