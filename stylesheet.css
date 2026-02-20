@@ -200,7 +200,9 @@ li a:hover {
 }
 
  .homepageSquare img {
-        margin-bottom: 1vw;
+
+        padding-bottom; 1vw;
+       /* margin-bottom: 1vw; */
 }
 /* PROJECT IMAGE ANIMATION */
 
