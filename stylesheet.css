@@ -193,16 +193,17 @@ li a:hover {
 }
 
  .projectWrapper:hover a img {
-  transform: scale(1.4);
-  transition: all 0.6s;
-  transition-timing-function: cubic-bezier(1, 0, 0, 1);
+    
+    overflow: hidden;
+    transform: scale(1.4);
+    transition: all 0.6s;
+    transition-timing-function: cubic-bezier(1, 0, 0, 1);
   /*object-position: bottom;*/
 }
 
  .homepageSquare img {
-
-        padding-bottom; 1vw;
-       /* margin-bottom: 1vw; */
+        
+       margin-bottom: 1vw;
 }
 /* PROJECT IMAGE ANIMATION */
 
