@@ -170,6 +170,9 @@ li a:hover {
 
 /* PROJECT IMAGE ANIMATION */
 .projectWrapper {
+    display: flex;
+    flex-direction: column;
+    column-gap: 1vw;
     position: relative;
     overflow: hidden;
     background: blue;
@@ -181,8 +184,8 @@ li a:hover {
 
 .projectWrapperText {
   
-    display: flex;
-    flex-direction: column;
+   /* display: flex;
+    flex-direction: column; */
     position: absolute;
     height: 100%;
     width: 30%;
