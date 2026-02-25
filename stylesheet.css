@@ -173,6 +173,7 @@ li a:hover {
     display: flex;
     flex-direction: column;
     column-gap: 1vw;
+    max-height: 600px;
     position: relative;
     overflow: hidden;
 
@@ -180,6 +181,7 @@ li a:hover {
 
 .projectWrapperImage {
     overflow: hidden;
+    max-height: 100%;
 }
 
 .projectWrapperText {
