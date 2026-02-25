@@ -214,10 +214,6 @@ li a:hover {
   /*object-position: bottom;*/
 }
 
- .homepageSquare img {
-        
-       margin-bottom: 1vw;
-}
 /* PROJECT IMAGE ANIMATION */
 
 
@@ -287,9 +283,7 @@ current mobile project description box.
         flex: 0 0 100%; 
     }
 
-     .homepageSquare img {
-        margin-bottom: 3vw;
-    }
+   
     /* END */
     
    
