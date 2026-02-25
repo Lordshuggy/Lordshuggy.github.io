@@ -171,7 +171,6 @@ li a:hover {
 /* PROJECT IMAGE ANIMATION */
 .projectWrapper {
     display: flex;
-    aspect-ratio: 4 / 5;
     flex-direction: column;
     column-gap: 1vw;
     position: relative;
