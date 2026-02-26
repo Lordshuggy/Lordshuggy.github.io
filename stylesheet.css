@@ -187,9 +187,6 @@ li a:hover {
 }
 
 .projectWrapperText {
-  
-   /* display: flex;
-    flex-direction: column; */
     position: absolute;
     height: 100%;
     width: 30%;
@@ -220,20 +217,6 @@ li a:hover {
 }
 
 /* PROJECT IMAGE ANIMATION */
-
-
-/*
-Potential idea for flex box project description, which may fit better than the 
-current mobile project description box. 
-
-.text {
-    background-color: pink;
-    flex: 0 0 90%;
-    padding: 0px 10px;
-    margin: 0px 0px 20px 0px;
-    
-}
-*/
 
 
 /* ------------------------ MAX WIDTH 1000px  ------------------------ */
@@ -382,20 +365,16 @@ current mobile project description box.
     }
     
     #projectContainer {
-       
         padding-top: 0px;
         margin: 280px 30px 0px 30px;
-        
     }
 
     .subHead {
         margin: 30px auto 0px auto;
-    
     }
 
     h2 {
-    font-size: 10pt;
-
+        font-size: 10pt;
     }
 }
 /* ------------------------ End of MQ  ------------------------ */
