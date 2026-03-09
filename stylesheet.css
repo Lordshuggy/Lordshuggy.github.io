@@ -50,7 +50,8 @@ h2 {
 
 h3 { 
 
-    color: var(--navy);
+    color: white;
+    text-shadow: 2px 2px 2px #000000;
     font-family: "neulis-sans", sans-serif;
     font-size: 10pt;
     font-style: normal;
@@ -192,7 +193,7 @@ li a:hover {
     left: 0px;
     overflow: hidden;
    /* background : orange; */
-    color: white;
+   padding: 30px 0 0 0;
     z-index: 1;
 }
 
