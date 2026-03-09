@@ -20,7 +20,7 @@ img {
 }
 
 #header {
-    position:fixed;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 10;
@@ -43,7 +43,6 @@ h1 {
 h2 {
     color: var(--navy);
     font-family: "neulis-sans", sans-serif;
-    font-weight: 300;
     font-size: 12pt;
     font-style: normal;
     font-weight: 300;
@@ -53,8 +52,7 @@ h3 {
 
     color: var(--navy);
     font-family: "neulis-sans", sans-serif;
-    font-weight: 300;
-    font-size: 15pt;
+    font-size: 10pt;
     font-style: normal;
     font-weight: 700;
 
@@ -114,7 +112,7 @@ li a:hover {
 
 #pageContainer{
     /* background-color: #e28888; */
-
+    /* currently deadcode - will double check to see if it's tied to anything randomly Div on Project pages */
 }
 
 /* FLEX BOX CODING HOMEPAGE */
@@ -193,9 +191,11 @@ li a:hover {
     top: 0px;
     left: 0px;
     overflow: hidden;
-    background : orange;
+   /* background : orange; */
+    color: white;
     z-index: 1;
 }
+
 
 .projectWrapperImageContainer {
     overflow: hidden;
@@ -207,7 +207,10 @@ li a:hover {
 
 .projectWrapperImage {}
 
- .projectWrapper:hover a img {
+
+
+
+.projectWrapper:hover a img {
     
     overflow: hidden;
     transform: scale(1.4);
