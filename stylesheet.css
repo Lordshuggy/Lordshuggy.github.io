@@ -56,13 +56,7 @@ h3 {
     font-size: 20pt;
     font-style: normal;
     font-weight: 500;
-    opacity: 0;
-
-}
-
-h3:hover {
-    transition: 0.5s;
-    opacity: 100;
+    
 }
 
 
@@ -195,13 +189,19 @@ li a:hover {
 .projectWrapperText {
     position: absolute;
     height: 100%;
-    width: 30%;
+    width: 100%;
     top: 0px;
     left: 0px;
     overflow: hidden;
-   /* background : orange; */
-   padding: 0 0 0 30px;
+    /* background : orange; */
+    padding: 0 0 0 30px;
+    opacity: 0;
     z-index: 1;
+}
+
+.projectWrapperText:hover {
+    transition: 0.5s;
+    opacity: 100;
 }
 
 
