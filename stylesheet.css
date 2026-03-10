@@ -200,7 +200,7 @@ li a:hover {
 }
 
 .projectWrapperText:hover {
-    transition: 0.5s;
+    transition: 1.2s;
     opacity: 100;
 }
 
